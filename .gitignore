@@ -1,0 +1,33 @@
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor/IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Claude Code
+.claude/
+CLAUDE.local.md
+
+# Logs
+*.log
+
+# Environment / secrets
+.env
+.env.*
+*.pem
+*.key
+*credentials*
+
+# Temp / scratch
+*.tmp
+.tmp/
+tmp/
+
+# Archives (large binaries shouldn't be committed)
+*.zip
+*.tar.gz
