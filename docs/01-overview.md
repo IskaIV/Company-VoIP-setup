@@ -8,8 +8,15 @@ specifically asked for a deskphone rather than a software-only setup, so the
 end state is a single **Yealink SIP-T43U** handset reachable at the client's
 toll-free DID.
 
-The whole deployment was a **solo, on-site job completed within a day** — setup account, order
-the number, configure the service, provision the phone, and verify calls.
+This was a **solo deployment that spanned three days of work**:
+
+- **Day 1 — Discovery.** Determine the client's needs and define what the
+  solution had to do.
+- **Day 2 — Research and planning.** Research the provider and hardware, test
+  POP servers for response rate and stability, and draw up the step-by-step plan
+  to follow.
+- **Day 3 — On-site setup.** Set up the account, order the number, configure the
+  service, provision the phone, and verify calls.
 
 ## The stack
 

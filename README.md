@@ -36,3 +36,4 @@ removed once the Yealink was in place.
 | # | Document | Purpose |
 |---|----------|---------|
 | 01 | [Overview](docs/01-overview.md) | The client, the goal, the stack, and why this design |
+| 02 | [Architecture](docs/02-architecture.md) | Call flow, POP server selection, ports, and codecs |
