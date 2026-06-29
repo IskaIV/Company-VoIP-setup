@@ -33,7 +33,6 @@ removed once the Yealink was in place.
 
 ## Contents
 
-_To be added as each section is written._
-
 | # | Document | Purpose |
 |---|----------|---------|
+| 01 | [Overview](docs/01-overview.md) | The client, the goal, the stack, and why this design |
