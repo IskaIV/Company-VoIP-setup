@@ -6,8 +6,10 @@ endpoints register with, and the toll-free DID that routes to them.
 ## 1. Main account
 
 Sign up at VoIP.ms and fund the account (it is prepaid/pay-as-you-go). The main
-account is the billing and management identity — endpoints do **not** register
-with the main account directly; they use sub-accounts created under it.
+account is the billing and management identity, and it also carries its own SIP
+credentials. In this deployment **one handset registers to the main account**,
+and the remaining handsets register to **sub-accounts** created under it — four
+phones in total.
 
 ## 2. Sub-accounts
 
@@ -63,8 +65,8 @@ before relying on the toll-free number as their phone.
 
 ## Result
 
-- Three sub-accounts, each with username/password credentials and an internal
-  extension.
-- One toll-free `(888)` DID routed directly to the sub-account(s).
+- The main account plus three sub-accounts — four registrations in total, each
+  with username/password credentials and an internal extension.
+- One toll-free `(888)` DID routed directly to the account(s).
 - Ready for an endpoint to register — continue to
   [Jami](04-softphone-jami.md) or [Yealink](05-yealink-t43u.md).
