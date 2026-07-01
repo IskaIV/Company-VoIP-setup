@@ -1,7 +1,7 @@
 # Company VoIP Setup
 
 A field guide to standing up a client's Voice over IP (VoIP) phone service with
-**VoIP.ms** and deploying a **Yealink SIP-T43U** desk phone — no PBX required.
+**VoIP.ms** and deploying **Yealink SIP-T43U** desk phones — no PBX required.
 
 VoIP.ms is a cloud SIP provider (ITSP): you create a **sub-account** (a set of
 SIP credentials) and route a **DID** (phone number) to it, then register an
@@ -26,7 +26,7 @@ removed once the Yealink was in place.
               ┌───────────┴────────────┐
               │                        │
      ┌────────▼─────────┐    ┌─────────▼─────────┐
-     │  Yealink T43U    │    │   Jami softphone  │
+     │ Yealink T43U ×3  │    │   Jami softphone  │
      │  (permanent)     │    │   (temp / test)   │
      └──────────────────┘    └───────────────────┘
 ```
