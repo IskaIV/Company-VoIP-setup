@@ -38,3 +38,4 @@ removed once the Yealink was in place.
 | 01 | [Overview](docs/01-overview.md) | The client, the goal, the stack, and why this design |
 | 02 | [Architecture](docs/02-architecture.md) | Call flow, POP server selection, ports, and codecs |
 | 03 | [VoIP.ms account setup](docs/03-voipms-account-setup.md) | Sub-accounts, toll-free DID, routing, and 911 caveat |
+| 04 | [Softphone: Jami](docs/04-softphone-jami.md) | Temporary SIP test endpoint and the echo test |
