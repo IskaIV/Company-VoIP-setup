@@ -5,8 +5,9 @@
 The client is an AI systems provisioning company that wanted a professional phone
 presence: a toll-free number answered on physical **desk phones**. They
 specifically asked for deskphones rather than a software-only setup, so the
-end state is **three Yealink SIP-T43U** handsets — each its own extension —
-reachable at the client's toll-free DID.
+end state is **four Yealink SIP-T43U** handsets — one on the main account and
+three on sub-accounts, each its own extension — reachable at the client's
+toll-free DID.
 
 This was a **solo deployment that spanned three days of work**:
 
@@ -25,7 +26,7 @@ This was a **solo deployment that spanned three days of work**:
 | SIP provider (ITSP) | **VoIP.ms** | Supplies the DID and the SIP credentials (sub-accounts) endpoints register to. Pay-as-you-go. |
 | Phone number (DID) | Toll-free `(888) XXX-XXXX` | Public-facing inbound number, routed to a sub-account. |
 | Test softphone | **Jami** (SIP-account mode) | Temporary endpoint to confirm the service worked; removed afterward. |
-| Desk phones | **Yealink SIP-T43U** (×3) | The permanent endpoints — one per extension — provisioned manually via the web UI. |
+| Desk phones | **Yealink SIP-T43U** (×4) | The permanent endpoints — one on the main account, three on sub-accounts — provisioned manually via the web UI. |
 
 ## Why this design
 
@@ -45,7 +46,7 @@ This was a **solo deployment that spanned three days of work**:
 - **Why the Yealink SIP-T43U.** The client wanted desk phones. The T43U is a
   business-class SIP handset with a clear web interface, so **manual
   provisioning** is quick and predictable at this small scale. (Auto-provisioning
-  wins at fleet scale, but is unnecessary for three phones.)
+  wins at fleet scale, but is unnecessary for four phones.)
 
 ## Scope
 
