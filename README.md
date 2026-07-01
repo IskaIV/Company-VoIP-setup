@@ -26,7 +26,7 @@ removed once the Yealink was in place.
               ┌───────────┴────────────┐
               │                        │
      ┌────────▼─────────┐    ┌─────────▼─────────┐
-     │ Yealink T43U ×3  │    │   Jami softphone  │
+     │ Yealink T43U ×4  │    │   Jami softphone  │
      │  (permanent)     │    │   (temp / test)   │
      └──────────────────┘    └───────────────────┘
 ```
