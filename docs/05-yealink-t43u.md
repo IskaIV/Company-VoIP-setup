@@ -2,7 +2,8 @@
 
 The Yealink SIP-T43U handsets are the permanent endpoints. Each is provisioned
 **manually through its web interface** and registered to its own VoIP.ms
-sub-account. There are three phones; the steps below are repeated once per phone.
+account. There are four phones — one on the main account and three on
+sub-accounts; the steps below are repeated once per phone.
 
 ## Getting the phone on the network (Internet Connection Sharing)
 
@@ -71,6 +72,7 @@ is provisioned and registered — that's essentially it.
 
 ## Repeat per phone
 
-Repeat the whole process for each of the three handsets, using each one's own
-sub-account credentials and account number. When done, verify calls as described
+Repeat the whole process for each of the four handsets, using each one's own
+credentials and account number (the main account for one, sub-accounts for the
+other three). When done, verify calls as described
 in [Testing & call quality](06-testing-and-call-quality.md).
