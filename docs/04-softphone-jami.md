@@ -1,10 +1,11 @@
 # 04 — Softphone: Jami (temporary test endpoint)
 
-Before provisioning any hardware, the VoIP.ms service and each sub-account need to
-be proven working. **Jami** served as a throwaway SIP endpoint for exactly that —
+Before provisioning any hardware, the VoIP.ms service and each account need to be
+proven working. **Jami** served as a throwaway SIP endpoint for exactly that —
 it is free, needs no personal information, runs on nearly every platform, and has
-the fewest restrictions of the common softphones. Each sub-account was tested on
-its own Jami account, then the accounts were removed once the Yealinks took over.
+the fewest restrictions of the common softphones. Each account (the main account
+and the three sub-accounts) was tested on its own Jami account, then removed once
+the Yealinks took over.
 
 > Jami is primarily a peer-to-peer app, but it includes a standard **SIP
 > account** type. That is the only mode used here — no Jami-network features are
@@ -25,10 +26,11 @@ its own Jami account, then the accounts were removed once the Yealinks took over
    | Password | `<SIP_PASSWORD>` | The sub-account's SIP password. |
 
 5. Set a profile name so each test is identifiable — `TEST_ACCOUNT_1`,
-   `TEST_ACCOUNT_2`, `TEST_ACCOUNT_3`.
+   `TEST_ACCOUNT_2`, and so on.
 
-**One account per device.** Because each Yealink gets its own sub-account, each
-sub-account was set up and tested on a separate Jami account, one at a time.
+**One account per device.** Each Yealink gets its own set of credentials (the
+main account for one phone, a sub-account for each of the other three), so each
+was set up and tested on a separate Jami account, one at a time — four in total.
 
 No codec, SRTP, or other tweaks were required — Jami registers with sensible
 defaults and the setup is deliberately simple.
@@ -48,7 +50,7 @@ that sub-account.
 
 ## 4. Remove the account
 
-Once the sub-account is confirmed, delete the Jami account and repeat for the
-next device. After all three are verified, Jami has done its job and is removed
+Once an account is confirmed, delete the Jami account and repeat for the next
+device. After all four are verified, Jami has done its job and is removed
 entirely — the permanent endpoints are the Yealink handsets in
 [section 05](05-yealink-t43u.md).
