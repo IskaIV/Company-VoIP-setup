@@ -42,3 +42,4 @@ removed once the Yealink was in place.
 | 05 | [Yealink SIP-T43U](docs/05-yealink-t43u.md) | Internet Connection Sharing, web UI registration, and codecs |
 | 06 | [Testing & call quality](docs/06-testing-and-call-quality.md) | Echo test, inbound/outbound checks, and ring-timeout tuning |
 | 07 | [Troubleshooting](docs/07-troubleshooting.md) | ICS/IP issues, registration, one-way audio, and more |
+| 08 | [Lessons learned](docs/08-lessons-learned.md) | Time, cost, gotchas, and what to do differently |
