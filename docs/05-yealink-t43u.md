@@ -32,3 +32,30 @@ a USB-to-Ethernet adapter.
    then press **OK** on the phone.
 7. If sharing is working, the phone's IP will be in the ICS range —
    **`192.168.137.X`**.
+
+## Accessing the web interface
+
+1. Open a browser on the PC and enter the phone's IP address
+   (`192.168.137.X`) to reach the Yealink's web UI.
+2. Log in with the **default credentials** for your model (look them up for your
+   specific Yealink phone).
+3. **First thing: change the default credentials.** Do not leave the phone on
+   factory login.
+
+## Registering the account
+
+Go to **Account → Register** and configure the line:
+
+| Field | Value | Notes |
+|-------|-------|-------|
+| Line Active | **On** | Enables the account. |
+| Label | `<ACCOUNT_NUMBER>` | Set to the account number. |
+| Display Name | `<ACCOUNT_NUMBER>` | Shown as caller ID name locally. |
+| Register Name | `<ACCOUNT_NUMBER>` | The auth/register name. |
+| Username | `<ACCOUNT_NUMBER>` | Same account number. |
+| Password | `<SIP_PASSWORD>` | The account password. |
+| SIP Server 1 | `<POP_SERVER>` — port **5060**, transport **UDP** | Primary server. |
+| SIP Server 2 (fallback) | `<FALLBACK_SERVER>` — port **5060**, transport **UDP** | Fallback server. |
+
+Leave **everything else at its defaults**, then click **Confirm**. The selected
+account should now show **Registered**.
