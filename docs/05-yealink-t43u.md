@@ -59,3 +59,18 @@ Go to **Account → Register** and configure the line:
 
 Leave **everything else at its defaults**, then click **Confirm**. The selected
 account should now show **Registered**.
+
+## Codecs
+
+Go to the **Account → Codec** tab and select the audio codecs your phone
+supports. For this model that was **PCMU** and **G.729**; the **Opus sample rate
+was left at its default, Opus-WB (16 kHz)**. Click **Confirm**.
+
+The phone will show **"Updating configuration"**. Once that finishes, the phone
+is provisioned and registered — that's essentially it.
+
+## Repeat per phone
+
+Repeat the whole process for each of the three handsets, using each one's own
+sub-account credentials and account number. When done, verify calls as described
+in [Testing & call quality](06-testing-and-call-quality.md).
